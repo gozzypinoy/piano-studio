@@ -2888,6 +2888,75 @@ Object.assign(SONGS, {
       { c:'F', s:8, d:4 }, { c:'G', s:12, d:4 },
     ],
   },
+  islandHorizon: {
+    name: 'Island Horizon Study',
+    desc: 'Modern animated-film style ballad in C major. I–V–vi–IV pop progression; verse + chorus contour with a wide-leap upper line.',
+    defaultBpm: 92,
+    chordRoots: [60, 67, 69, 65],
+    patternKey: 'pop',
+    level: 'Easy',
+    notes: [
+      // Verse section
+      { m:64, b:1 }, { m:64, b:1 }, { m:64, b:1 }, { m:64, b:1 },     // bar 1  C
+      { m:62, b:1 }, { m:62, b:1 }, { m:62, b:2 },                     // bar 2  G
+      { m:60, b:1 }, { m:60, b:1 }, { m:62, b:1 }, { m:64, b:1 },     // bar 3  Am
+      { m:62, b:1 }, { m:60, b:2 }, { m:60, b:1 },                     // bar 4  F
+      { m:64, b:1 }, { m:67, b:1 }, { m:67, b:1 }, { m:67, b:1 },     // bar 5  C
+      { m:65, b:1 }, { m:65, b:1 }, { m:64, b:2 },                     // bar 6  G
+      { m:64, b:1 }, { m:62, b:1 }, { m:60, b:1 }, { m:69, b:1 },     // bar 7  Am
+      { m:65, b:1 }, { m:65, b:1 }, { m:65, b:2 },                     // bar 8  F
+      // Chorus section
+      { m:67, b:1 }, { m:67, b:1 }, { m:69, b:1 }, { m:71, b:1 },     // bar 9  C
+      { m:72, b:1 }, { m:74, b:1 }, { m:76, b:1 }, { m:71, b:1 },     // bar 10 G
+      { m:69, b:1 }, { m:67, b:1 }, { m:65, b:1 }, { m:64, b:1 },     // bar 11 Am
+      { m:72, b:2 }, { m:72, b:2 },                                    // bar 12 F
+      { m:64, b:1 }, { m:67, b:1 }, { m:64, b:1 }, { m:60, b:1 },     // bar 13 C
+      { m:62, b:1 }, { m:62, b:1 }, { m:71, b:1 }, { m:74, b:1 },     // bar 14 G
+      { m:76, b:1 }, { m:69, b:1 }, { m:67, b:1 }, { m:65, b:1 },     // bar 15 Am
+      { m:64, b:2 }, { m:60, b:2 },                                    // bar 16 F
+    ],
+    chords: [
+      { c:'C',  s:0,  d:4 }, { c:'G',  s:4,  d:4 }, { c:'Am', s:8,  d:4 }, { c:'F', s:12, d:4 },
+      { c:'C',  s:16, d:4 }, { c:'G',  s:20, d:4 }, { c:'Am', s:24, d:4 }, { c:'F', s:28, d:4 },
+      { c:'C',  s:32, d:4 }, { c:'G',  s:36, d:4 }, { c:'Am', s:40, d:4 }, { c:'F', s:44, d:4 },
+      { c:'C',  s:48, d:4 }, { c:'G',  s:52, d:4 }, { c:'Am', s:56, d:4 }, { c:'F', s:60, d:4 },
+    ],
+  },
+  doowopPop: {
+    name: 'Doo-Wop Pop Study',
+    desc: 'Classic doo-wop / pop pattern in C major. I–vi–IV–V chord cycle with a stepwise chorus hook and rising verse line.',
+    defaultBpm: 100,
+    chordRoots: [60, 69, 65, 67],
+    patternKey: 'pop',
+    level: 'Easy',
+    notes: [
+      // Chorus section
+      { m:67, b:1 }, { m:67, b:1 }, { m:67, b:1 }, { m:65, b:1 },     // bar 1  C
+      { m:64, b:1 }, { m:64, b:1 }, { m:64, b:2 },                     // bar 2  Am
+      { m:65, b:1 }, { m:65, b:1 }, { m:69, b:2 },                     // bar 3  F
+      { m:67, b:1 }, { m:65, b:1 }, { m:64, b:2 },                     // bar 4  G
+      { m:67, b:1 }, { m:67, b:1 }, { m:67, b:1 }, { m:65, b:1 },     // bar 5  C
+      { m:64, b:1 }, { m:64, b:1 }, { m:64, b:2 },                     // bar 6  Am
+      { m:65, b:1 }, { m:69, b:1 }, { m:72, b:1 }, { m:69, b:1 },     // bar 7  F
+      { m:67, b:1 }, { m:65, b:1 }, { m:64, b:1 }, { m:62, b:1 },     // bar 8  G
+      // Verse section
+      { m:64, b:1 }, { m:64, b:1 }, { m:67, b:1 }, { m:67, b:1 },     // bar 9  C
+      { m:69, b:1 }, { m:69, b:1 }, { m:67, b:2 },                     // bar 10 Am
+      { m:65, b:1 }, { m:65, b:1 }, { m:69, b:1 }, { m:69, b:1 },     // bar 11 F
+      { m:67, b:1 }, { m:65, b:1 }, { m:64, b:2 },                     // bar 12 G
+      // Chorus repeat
+      { m:67, b:1 }, { m:67, b:1 }, { m:67, b:1 }, { m:65, b:1 },     // bar 13 C
+      { m:64, b:1 }, { m:64, b:1 }, { m:64, b:2 },                     // bar 14 Am
+      { m:65, b:1 }, { m:65, b:1 }, { m:69, b:2 },                     // bar 15 F
+      { m:67, b:1 }, { m:67, b:2 }, { m:60, b:1 },                     // bar 16 G
+    ],
+    chords: [
+      { c:'C',  s:0,  d:4 }, { c:'Am', s:4,  d:4 }, { c:'F',  s:8,  d:4 }, { c:'G', s:12, d:4 },
+      { c:'C',  s:16, d:4 }, { c:'Am', s:20, d:4 }, { c:'F',  s:24, d:4 }, { c:'G', s:28, d:4 },
+      { c:'C',  s:32, d:4 }, { c:'Am', s:36, d:4 }, { c:'F',  s:40, d:4 }, { c:'G', s:44, d:4 },
+      { c:'C',  s:48, d:4 }, { c:'Am', s:52, d:4 }, { c:'F',  s:56, d:4 }, { c:'G', s:60, d:4 },
+    ],
+  },
 });
 
 const SONG_DEFAULTS = {
