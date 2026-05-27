@@ -1,0 +1,6 @@
+# Personal song charts — imported MIDIs and JSON charts you don't want
+# committed to the repo. Keep raw source files here; the app loads them
+# into localStorage at import time.
+private-songs/
+*.mid
+*.midi
